@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,600,700);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, _normalize.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, _normalize.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 31, _normalize.scss */
+body {
+  line-height: 1; }
+
+/* line 34, _normalize.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 37, _normalize.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 40, _normalize.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 45, _normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, _html.scss */
+h1 {
+  font-size: 25px; }
+
+/* line 9, site.css.scss */
+header {
+  background: #24cf5f;
+  color: white;
+  height: 400px; }
+
+/* line 15, site.css.scss */
+body {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px; }
+
+/* line 21, site.css.scss */
+.bold {
+  font-weight: bold; }
+
+/* line 24, site.css.scss */
+.powered_by {
+  font-size: 14px; }
+
+/* line 28, site.css.scss */
+footer {
+  background-color: #292b33;
+  color: white;
+  height: 150px; }
