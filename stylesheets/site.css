@@ -58,27 +58,108 @@ h1 {
   font-size: 25px; }
 
 /* line 9, site.css.scss */
-header {
-  background: #24cf5f;
-  color: white;
-  height: 400px; }
-
-/* line 15, site.css.scss */
-body {
-  text-align: center;
-  font-family: 'Work Sans', sans-serif;
+.font-small {
+  line-height: 1.2em;
   font-size: 16px; }
 
-/* line 21, site.css.scss */
+/* line 14, site.css.scss */
+.font-medium {
+  line-height: 1.4em;
+  font-size: 24px; }
+
+/* line 19, site.css.scss */
+.font-large {
+  line-height: 1.6em;
+  font-size: 36px; }
+
+/* line 24, site.css.scss */
+.header {
+  color: white;
+  margin-bottom: 48px; }
+  /* line 28, site.css.scss */
+  .header .header-content {
+    background: #24cf5f;
+    padding: 0 300px;
+    padding-top: 48px;
+    padding-bottom: 48px; }
+    /* line 34, site.css.scss */
+    .header .header-content .header-logo {
+      margin-bottom: 48px; }
+  /* line 39, site.css.scss */
+  .header .white {
+    height: 48px;
+    position: relative;
+    margin: 0 200px; }
+    /* line 44, site.css.scss */
+    .header .white img {
+      position: absolute;
+      right: 0;
+      bottom: 0; }
+
+/* line 52, site.css.scss */
+body {
+  font-family: 'Work Sans', sans-serif; }
+
+/* line 56, site.css.scss */
+.main {
+  margin: 0 250px;
+  text-align: center; }
+  /* line 60, site.css.scss */
+  .main .main-description-text {
+    margin-bottom: 48px; }
+  /* line 65, site.css.scss */
+  .main .main-description-github a {
+    color: #24cf5f;
+    text-decoration: none;
+    border: 1px solid #24cf5f;
+    padding: 15px 40px;
+    width: 140px;
+    display: inline-block; }
+  /* line 75, site.css.scss */
+  .main .main-blocks {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    /* line 81, site.css.scss */
+    .main .main-blocks .main-blocks-block1 {
+      flex-basis: 100%; }
+  /* line 86, site.css.scss */
+  .main .main-video-description {
+    margin-bottom: 48px; }
+  /* line 90, site.css.scss */
+  .main .main-video-youtube {
+    margin-bottom: 48px; }
+  /* line 95, site.css.scss */
+  .main .main-skype .main-skype-button {
+    margin-bottom: 48px; }
+  /* line 100, site.css.scss */
+  .main .main-contact {
+    margin-bottom: 48px; }
+    /* line 103, site.css.scss */
+    .main .main-contact .main-contact-email a {
+      color: #24cf5f;
+      text-decoration: none; }
+
+/* line 110, site.css.scss */
+.horizontal_rule {
+  margin-top: 48px;
+  margin-bottom: 48px; }
+
+/* line 115, site.css.scss */
 .bold {
   font-weight: bold; }
 
-/* line 24, site.css.scss */
+/* line 119, site.css.scss */
 .powered_by {
   font-size: 14px; }
 
-/* line 28, site.css.scss */
-footer {
+/* line 123, site.css.scss */
+.footer {
+  text-align: center;
   background-color: #292b33;
   color: white;
-  height: 150px; }
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
